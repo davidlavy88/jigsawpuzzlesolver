@@ -7,6 +7,17 @@
     sudo apt-get -y install libopencv-dev
     sudo apt-get -y install libopencv-nonfree-dev
 
+== Build it
+
+    cmake .
+    make
+
+== Run it
+
+    ?
+
+== Background
+
 The program implements the following steps:
 1. Threshold image 1, to have pieces isolated from the background.
 2. Next, we find the contours around each piece, and storage in an array of contours
