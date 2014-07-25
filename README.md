@@ -1,5 +1,11 @@
-jigsawpuzzlesolver
+== jigsawpuzzlesolver
 
+== Install prereqs
+
+    # non-free opencv things are needed
+    sudo apt-add-repository ppa:xqms/opencv-nonfree
+    sudo apt-get -y install libopencv-dev
+    sudo apt-get -y install libopencv-nonfree-dev
 
 The program implements the following steps:
 1. Threshold image 1, to have pieces isolated from the background.
