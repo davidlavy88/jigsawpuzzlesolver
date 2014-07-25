@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 2.8)
+project( PuzzleSolver )
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} . )
+add_executable( PuzzleSolver PuzzleSolver.cpp )
+add_library( ExtractPieces ExtractPieces.cpp )
+add_library( FeatureDetectorAndMatcher FeatureDetectorAndMatcher.cpp )
+target_link_libraries( PuzzleSolver ${OpenCV_LIBS} FeatureDetectorAndMatcher  ExtractPieces )
