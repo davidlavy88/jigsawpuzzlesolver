@@ -4,3 +4,4 @@ CMakeFiles/
 CMakeCache.txt
 *.gch
 cmake_install.cmake
+PuzzleSolver
