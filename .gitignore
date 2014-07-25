@@ -3,3 +3,4 @@ CMakeFiles/
 *.a
 CMakeCache.txt
 *.gch
+cmake_install.cmake
