@@ -1,23 +1,23 @@
-== jigsawpuzzlesolver
+# jigsawpuzzlesolver
 
-== Install prereqs
+## Install prereqs
 
     # non-free opencv things are needed
     sudo apt-add-repository ppa:xqms/opencv-nonfree
     sudo apt-get -y install libopencv-dev
     sudo apt-get -y install libopencv-nonfree-dev
 
-== Build it
+## Build it
 
     cmake .
     make
 
-== Run it
+## Run it
 
     # Takes Pieces image, then Puzzle image.
     ./PuzzleSolver Pieces_Wall.jpg Puzzle_Wall.jpg
 
-== Background
+## Background
 
 The program implements the following steps:
 
