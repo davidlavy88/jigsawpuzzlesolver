@@ -12,3 +12,5 @@ The program implements the following steps:
 The steps 1,2 and 3 are performed by the file ExtractPieces.h and ExtractPieces.cpp Steps 4 - 7 are performed by the file FeatureDetectorAndMatcher.h and FeatureDetectorAndMatcher.cpp.
 Step 7 is still in progress. The main idea is to select a random keypoint from the piece and find its matcher in the puzzle, then create the rectangle that contains the piece in the puzzle, and perform an histogram matcher to verify the rectangle is well positioned and we haven't chosen a mismatched keypoint.
 
+You can find a video of the implementation here: https://www.youtube.com/watch?v=9zWPQwS3nak
+
